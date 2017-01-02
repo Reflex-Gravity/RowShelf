@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RowShelf</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="webster">Webster</string>
+    <string name="email">Email</string>
+    <string name="no_account_then_sign_up_from_here">No Account? Then Sign Up from here</string>
+    <string name="submit">Submit</string>
+    <string name="button">Button</string>
+    <string name="string_button" />
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="textview">TextView</string>
+    <string name="button1">Button</string>
+    <string name="name1">Name</string>
+    <string name="pwd">Pwd</string>
+    <string name="string_pwd" />
+    <string name="string_pwd1" />
+    <string name="sign_up">Sign Up</string>
+</resources>
