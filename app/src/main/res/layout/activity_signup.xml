@@ -14,7 +14,7 @@
         android:textSize="25sp"
         android:textAlignment="textStart"
         android:gravity="center"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/textView5"
         android:layout_marginStart="16dp"
@@ -31,7 +31,7 @@
         android:inputType="textPersonName"
        android:hint="Full Name"
         android:ems="10"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:id="@+id/nametxt"
         android:textColor="#ffffff"
         android:background="@drawable/btnborder"
@@ -47,12 +47,12 @@
         app:layout_constraintRight_toRightOf="parent" />
 
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:inputType="textEmailAddress"
         android:ems="10"
         android:hint="Email id or Mobile No."
         android:id="@+id/idtxt"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:textColor="#ffffff"
         android:fontFamily="sans-serif"
         android:background="@drawable/btnborder"
@@ -70,9 +70,9 @@
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <EditText
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="42dp"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:fontFamily="sans-serif"
         android:inputType="textPassword"
         android:hint="Password"
@@ -102,6 +102,8 @@
         android:background="#424242"
         android:textColor="#ffffff"
         android:textSize="30sp"
+        android:clickable="true"
+        android:onClick="registerIt"
         android:textAllCaps="false"
         android:fontFamily="sans-serif"
         android:layout_marginStart="16dp"
@@ -120,6 +122,8 @@
         android:textSize="30sp"
         android:fontFamily="sans-serif"
         android:textAllCaps="false"
+        android:onClick="openLoginAct"
+        android:clickable="true"
         android:textColor="#ffffff"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

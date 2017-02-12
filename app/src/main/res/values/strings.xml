@@ -16,5 +16,8 @@
     <string name="pwd">Pwd</string>
     <string name="string_pwd" />
     <string name="string_pwd1" />
+    <string name="min_pwd">Password too short, enter minimum 8 characters!</string>
     <string name="sign_up">Sign Up</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>
